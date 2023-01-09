@@ -53,6 +53,8 @@ public class ApiController {
 		return new ResponseEntity<List<Result>>(list,HttpStatus.OK);
 	}
 	
+	//saving new Entry
+	
 	@PostMapping("/save")
 	public ResponseEntity<String> saveEntries(@RequestBody Entry entry){
 		
