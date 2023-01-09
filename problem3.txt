@@ -1,0 +1,6 @@
+Question: what are the key things you would consider when creating/consuming an API to ensure that it is secure and reliable?
+-------------------------------------------
+
+1) we could use enums and appropriate exception handler for reliability.
+
+2) we could make Api secure by use Authentication and authorisation provided by Spring Security.
